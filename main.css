@@ -58,6 +58,7 @@ header {
     padding-left: 40px;
     padding-right: 30px;
     border: none;
+    width: 100%;
 }
 
 header nav ul {
