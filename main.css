@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 h1 {
@@ -35,4 +36,159 @@ p {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
+}
+
+/* toppart */
+.toppart {
+    height: 1680px;
+    width: 100%;
+}
+
+.dec {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero, .quote, .menu {
+    position: relative;
+    z-index: 1;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.herotext {
+    width: 530px;
+}
+
+.herobutton {
+    margin-top: 48px;
+}
+
+#colorbutton {
+    width: 166px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: #4A1D1F;
+    color: #FBEDCD;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    margin-right: 16px;
+}
+
+#strokebutton {
+    width: 197px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: inset 0 0 0 1px #4A1D1F;
+    color: #4A1D1F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+/* whitetap */
+
+.whitetab {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 965px;
+    height: 201px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(35.5px);
+    border-radius: 100.5px;
+    position: absolute;
+    left: 580px;
+    top: 500px;
+    z-index: 2;
+}
+
+.whitetaptext {
+    display: inline-block;
+    position: relative; 
+    z-index: 3;
+}
+
+.whitetabphoto img {
+    width: 230px;
+    height: 129px;
+    border-radius: 18px;
+    border: 0px;
+    box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.20);
+    margin-left: 8px;
+    position: relative;
+    z-index: 3;
+}
+
+/* quote */
+.quote {
+    margin-top: 300px;
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+}
+
+#vertiline {
+    width: 1px;
+    height: 128px;
+    background: #4A1D1F;
+}
+
+/* menu */
+
+.menu {
+    margin-top: 108px;
+    margin-left: 85px;
+    display: flex;
+    gap: 71px;
+    overflow: hidden;
+}
+
+.menucontainer {
+    width: 231px;
+}
+
+.menuimgblock {
+    width: 231px;
+    height: 328px;
+    box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 33px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+#menuimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 33px;
+}
+ 
+#ratingtext {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.rating {
+    margin-top: 10px;
+    display: flex;
+    gap: 4px;
+}
+
+#star {
+    width: 146px;
+    height: 26px;
 }
