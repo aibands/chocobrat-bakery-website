@@ -21,14 +21,14 @@ h2 {
     font-weight: 700;
 }
 
-h3 { 
+h3 {
     font-family: "Poppins", sans-serif;
     color: #4A1D1F;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     /* for CEO part */
-} 
+}
 
 p {
     font-family: "Poppins", sans-serif;
@@ -37,6 +37,86 @@ p {
     font-style: normal;
     font-weight: 400;
 }
+
+/* HEADER */
+header h1 {
+    color: #4A1D1F;
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    height: 75px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 30px;
+    border: none;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0 35px;
+    font-size: 16px;
+    color: #4A1D1F;
+}
+
+header .navlink:link,
+header .navlink:visited {
+    color: #4A1D1F;
+    text-decoration: none;
+}
+
+header .navlink[href="#"] {
+    color: #4A1D1F;
+    font-weight: bolder;
+}
+
+header .navlink:hover {
+    color: orangered;
+}
+
+header .navlink:active {
+    color: green;
+}
+
+header nav ul #searchbar {
+    display: flex;
+    border: 1px solid #ccc;
+    width: 175px;
+    height: 35px;
+
+}
+
+header #contacus {
+    margin-right: 40px;
+}
+
+header #searchbar input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+header #searchbar button {
+    background: #4b1c1c;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEADER */
 
 /* toppart */
 .toppart {
@@ -50,10 +130,13 @@ p {
     z-index: -1;
 }
 
-.hero, .quote, .menu {
+.hero,
+.quote,
+.menu {
     position: relative;
     z-index: 1;
 }
+
 .hero {
     display: flex;
     justify-content: center;
@@ -116,7 +199,7 @@ p {
 
 .whitetaptext {
     display: inline-block;
-    position: relative; 
+    position: relative;
     z-index: 3;
 }
 
@@ -167,13 +250,14 @@ p {
     object-fit: cover;
     margin-bottom: 24px;
 }
+
 #menuimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 33px;
 }
- 
+
 #ratingtext {
     color: #707070;
     font-family: Poppins;
