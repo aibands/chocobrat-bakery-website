@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: #4A1D1F;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    color: #4A1D1F;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3 { 
+    font-family: "Poppins", sans-serif;
+    color: #4A1D1F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    /* for CEO part */
+} 
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
