@@ -84,7 +84,8 @@ header nav ul {
 }
 
 header .navlink:link,
-header .navlink:visited {
+header .navlink:visited ,
+footer a{
     color: #4A1D1F;
     text-decoration: none;
 }
@@ -401,7 +402,8 @@ footer {
     height: 380px;
     background-color: #fceccc;
     margin-bottom: 0;
-    font-size: 90px;
+    /* font-size: 30px; */
+    
 }
 
 
@@ -421,7 +423,8 @@ footer nav ul {
     width: 900px;
     justify-content: space-between;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 footer nav ul a {
@@ -435,6 +438,7 @@ footer .f2 {
     justify-content: space-between;
     padding: 20px 150px 90px 150px;
     height: 60%;
+    font-family: "Poppins", sans-serif;
 }
 
 footer .f2 img {
