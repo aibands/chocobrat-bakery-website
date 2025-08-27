@@ -537,7 +537,7 @@ footer .f2 div {
 }
 
 .contact button {
-    width: 300px;
+    width: 230px;
     padding: 10px 30px;
     border-radius: 4px;
     background: #4A1D1F;
@@ -627,4 +627,17 @@ footer .f2 div {
 
 .ceo .dot.active {
     background-color: #4A1D1F;
+}
+
+#badge {
+    height: 22px;
+    padding: 2px 8px;
+    border-radius: 36px;
+    background: #FBEDCD;
+    box-shadow: 0 1px 2px 0 rgba(105, 81, 255, 0.05);
+    color: #4A1D1F;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
 }
