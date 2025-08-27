@@ -13,6 +13,17 @@ h1 {
     font-weight: 700;
 }
 
+.chocobrat {
+    color: #4A1D1F;
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
 h2 {
     font-family: "Poppins", sans-serif;
     color: #4A1D1F;
@@ -278,8 +289,28 @@ header #searchbar button {
     height: 26px;
 }
 
+
+/* 404 */
+
+#notfound {
+    display: flex;
+    align-items: center;
+
+}
+
+#notfound div {
+    display: grid;
+    gap: 50px;
+}
+
+#notfound img {
+    height: 500px;
+    float: left;
+}
+
+
 /* footer */
-footer{
+footer {
     display: grid;
     width: 100%;
     height: 380px;
@@ -289,7 +320,7 @@ footer{
 
 
 
-footer .f1{
+footer .f1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -298,34 +329,34 @@ footer .f1{
     height: 171px;
 }
 
-footer nav ul{
+footer nav ul {
     display: flex;
     list-style: none;
-    width: 1300px;
+    width: 900px;
     justify-content: space-between;
     align-items: center;
     font-size: 30px;
 }
 
-footer nav ul a{
+footer nav ul a {
     color: #272727;
 }
 
 
 
-footer .f2{
+footer .f2 {
     display: flex;
     justify-content: space-between;
     padding: 20px 150px 90px 150px;
     height: 60%;
 }
 
-footer .f2 img{
+footer .f2 img {
     height: 30px
 }
 
-footer .f2 div{
+footer .f2 div {
     display: flex;
-    width: 420px;
+    width: 300px;
     justify-content: space-between;
 }
