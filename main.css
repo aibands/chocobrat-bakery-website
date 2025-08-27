@@ -290,6 +290,7 @@ header #searchbar button {
     height: 26px;
 }
 
+/* Nelson-Llanes */
 
 /* 404 */
 
@@ -449,3 +450,181 @@ footer .f2 div {
 
 /* footer */
 
+/*-----------------------------------Tiana do----------------------------------------*/
+/*---------blog------------*/
+.blog {
+    width: 100%;
+    padding: 0px 0; 
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    max-width: 1200px;
+    margin: 0 auto 80px; 
+    padding: 30px 20px;
+    border-radius: 20px; 
+}
+
+.float-right {
+    flex-direction: row-reverse; /* Reverses the order for the right-floated image block */
+}
+
+.float-left {
+    flex-direction: row;
+}
+
+.image-in-section {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.text-content-blog {
+    width: 50%;
+    padding: 20px;
+}
+
+.text-content-blog h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.text-content-blog p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    max-width: 700px; 
+}
+
+.read {
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+.read a {
+    color: #4A1D1F;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.read a::after {
+    content: "→";
+    margin-left: 8px;
+    transition: margin-left 0.3s ease;
+}
+
+.read a:hover::after {
+    margin-left: 12px;
+}
+
+/*---------contact---------*/
+.contact {
+    background-color: #FBEDCD;
+    text-align: center;
+    width: 100%;
+    padding: 7%;
+}
+.contact .text-content-contact h2{
+    margin-bottom: 20px;
+}
+
+.contact button {
+    width: 300px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: #4A1D1F;
+    color: #FBEDCD;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    margin-right: 16px;
+    margin-top: 48px;
+}
+/*---------ceo--------------*/
+.ceo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url('img/“.svg'), url('img/“-1.svg');
+    background-position: left 20px top 20px, right 100px bottom 180px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    margin-top: 80px;
+}
+
+.ceo h1 {
+    color: #4A1D1F;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 1.5;
+    max-width: 700px;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.ceo .author img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.ceo .author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.ceo .author h3 {
+    font-family: "Poppins", sans-serif;
+    color: #4A1D1F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.ceo .author p {
+    font-family: "Poppins", sans-serif;
+    color: #272727;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.ceo .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ 
+.ceo .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #D3B8B9;
+    border: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ceo .dot.active {
+    background-color: #4A1D1F;
+}
