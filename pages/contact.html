@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocobrat</title>
+
+    <link rel="stylesheet" href="../main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h1 style="font-size: 30px;"><a href="../index.html" class="chocobrat">Chocobrat</a></h1>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="navlink">Home</a></li>
+                <li><a href="./pages/Categories" class="navlink">Categories</a></li>
+                <li><a href="../404.html" class="navlink">About Us</a></li>
+                <li><a href="#" id="contacus" class="navlink">Contact Us</a></li>
+                <li>
+                    <div id="searchbar">
+                        <input type="text" id="search" placeholder="Search">
+                        <button type="submit" style="border: none;">
+                            <img src="../asset/searchicon.png" alt="searchicon" style="height:30px; width:auto;">
+                        </button>
+                    </div>
+                </li>
+                <li><img src="../asset/profileicon.png" alt="profile " style="height: 27px;"></li>
+                <li><img src="../asset/carticon.png" alt="carticon " style="height: 29px;"></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main id="contact">
+        <form action="/submit-form" method="post">
+
+            <label for="name" id="namelabel">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="eg: John Doe">
+
+            <label for="email" id="emaillabel">Email</label>
+            <input type="email" name="email" id="email" placeholder="eg: john_doe@****.com">
+
+            <label for="tel" id="tellabel">Phone Number</label>
+            <input type="tel" name="tel" id="tel" placeholder="eg:977-546-231">
+
+            <label for="address" id="addresslabel">Address</label>
+            <input type="text" name="address" id="address" placeholder="eg: 8575 jailmain street">
+
+            <label for="message" id="messagelabel">What do you have in mind?</label>
+            <textarea name="message" id="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+            <button type="submit" id="button">submit</button>
+
+
+        </form>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <div class="f1">
+            <h1 style="font-size: 30px;" class="chocobrat">Chocobrat</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../pages/categories">Categories</a></li>
+                    <li><a href="../pages/aboutus">About Us</a></li>
+                    <li><a href="../pages/contact.html">Contact Us</a></li>
+                    <li><a href="../pages/careers">Careers</a></li>
+                    <li><a href="../pages/help">Help</a></li>
+                    <li><a href="../pages/privacy">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="f2">
+            <p>&copy 2021 chocobrat. All rights reserved.</p>
+            <div>
+                <img src="../asset/Facebook.png" alt="fb">
+                <img src="../asset/Twitter.png" alt="tw">
+                <img src="../asset/Instagram.png" alt="ig">
+                <img src="../asset/Github.png" alt="gh">
+                <img src="../asset/LinkedIn.png" alt="in">
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
